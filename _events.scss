@@ -1,0 +1,42 @@
+.events {
+    &-title {
+        margin: 8vmin 0;
+        text-align: center;
+        h1 {
+            font-size: 5vmin;
+            color: $secondary-color;
+        }
+    }
+    &-row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 40px;
+
+        &-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            gap: 10px;
+            img {
+                width: 80%;
+            }
+            h4 {
+                color: $secondary-color;
+            }
+            p {
+                color: $thirdy-color;
+                text-align: start;
+                word-wrap: wrap;
+                word-break: break-all;
+                font-size: 17px;
+                color: $thirdy-color;
+
+                width: 80%;
+            }
+        }
+    }
+}
